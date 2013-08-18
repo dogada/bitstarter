@@ -1,17 +1,10 @@
-var express = require('express'),
-fs = require('fs'),
-app = express();
+if (process.env.DEV) {
+  require('./web_dev');
+} else {
+  require('./web_production');
+}
 
-app.use(express.logger());
 
 
-app.get('/', function(request, response) {
-  var buffer = fs.readFileSync('index.html');
-  response.send(buffer.toString());
-});
 
-var port = process.env.PORT || 8080;
 
-app.listen(port, function() {
-  console.log('Listening on' + port);
-});
