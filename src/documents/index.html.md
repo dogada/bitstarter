@@ -9,10 +9,10 @@ lead: 'coact to connect'
 
 ### Healthy competition or cold war?
 
-Internet is like a blanket today. Each startup pulls it off to take bigger bite.
-Large internet companies often create unnecessary barriers between own users and users of
-competing web-sites. Shortly we can expect generation that haven't
-seen anything at all, except for Facebook.
+The Internet feels like a quilt today. Every startup tries to pull it their way
+to take bigger bite. Large internet companies often create unnecessary
+barriers between their own users and users of competing web sites. Shortly we
+can expect a generation that haven't seen anything at all, except for Facebook.
 
 ### Coect is freedom
 
@@ -28,21 +28,21 @@ Internet: computers, smartphones, wearable and home sensors.
 
 Coect is **freedom for developers**. Any company can build a service using
 protocol Coect, and interact with other companies without limitations. Right now
-we exchange emails without thinking about what kind of server, the provider or
-the client uses the recipient of the message. Coect adheres the same approach.
+we exchange emails without thinking about what kind of server, Internet provider or
+email client the recipient of the message has. Coect adheres to the same
+approach.
 
 Coect is **freedom for the users**. Anyone can use their domain name as username
-in Coect. Also you can get the address on a shared server like Gmail. You can
+in Coect. You can even use a free address on a shared server like Gmail. You can
 change your Coect-provider anytime and keep your address and contacts. All
 communication between users can be encrypted.
 
 
 ### Universal address for everything
 
-For different types of communication (phone, email, social news) with one person
-we need to use different addresses. However using of new address for each
-channel of communication is inconvenient and wrong. Coect offers a single
-address for everything.
+Today, we have to use different addresses for the same person based on type of
+communication: phone, email, social news &mdash; we believe that this is inconvenient
+and plain wrong. Coect offers a single address for everything.
 
 The same address can be used for phone calls, text messaging, video
 conferencing, and reading the news in social networks. The universal
@@ -64,6 +64,6 @@ We stand on the threshold of
 [Internet of Things](http://en.wikipedia.org/wiki/Internet_of_Things).
 
 All these diverse network nodes should exchange information and hence use a
-standard understood by all protocol. It is here that we see a market niche and
+standard protocol that everybody understands. It is here that we see a market niche and
 primary goal for Coect: **teach all Internet-connected devices to speak the
 same language and understand each other**.

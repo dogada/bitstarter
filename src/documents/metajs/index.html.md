@@ -70,12 +70,23 @@ function parameters and symbols available in the context of call. Such matching
 may be based on static typing or relations between symbols defined in logoses.
 
 
+### MetaJS allows compiler to generate source code. Will a computer create programs instead of a human?
+
+The compiler will execute the instructions exactly as before, but in addition to
+grammar instructions, it will also execute semantic instructions defined
+specifically for your program.
+
+Imagine that you're explaining how does your program work to a grandmother who knows
+nothing about programming &mdash; it's an old grammar compiler. Now imagine that
+you're explaining the same thing to a girl with a degree in computer science &mdash;
+it's a new semantic compiler. But you will have to explain in both cases.
+
+
 ### Source code
 
 Unfortunately I haven't polished enough MetaJS compiler to release it publicly,
 but plan to do this by the end of August 2013. I already created MetaJS repo on
 GitHub, so if you wish, you can [watch it](https://github.com/dogada/metajs).
-
 
 _Dmytro Dogadailo_,  
 github:[dogada](https://github.com/dogada), twitter:[@d0gada](https://twitter.com/d0gada).
