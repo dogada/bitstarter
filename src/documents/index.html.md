@@ -10,7 +10,7 @@ lead: 'coact to connect'
 ### Healthy competition or cold war?
 
 The Internet feels like a quilt today. Every startup tries to pull it their way
-to take bigger bite. Large internet companies often create unnecessary
+to take the bigger bite. Large internet companies often create unnecessary
 barriers between their own users and users of competing web sites. Shortly we
 can expect a generation that haven't seen anything at all, except for Facebook.
 
@@ -46,9 +46,9 @@ and plain wrong. Coect offers a single address for everything.
 
 The same address can be used for phone calls, text messaging, video
 conferencing, and reading the news in social networks. The universal
-address can be used by different applications. Universal does not mean one
+address can be used by different applications. Universal does not mean the same
 address per person. To communicate at work, you can use one universal address,
-for communicating with friends &mdash; the other.
+for communicating with friends &mdash; the other one.
 
 
 ### The computer is dead. Long live the smartphone!

@@ -11,14 +11,14 @@ title: 'Logos-oriented Lisp compiled to Javascript'
 Today compilers of computer programs analyze only the grammar of the language
 and ignore the semantics of each specific program. As a result, we get the
 source code with high level of redundancy. With the increasing size of the
-program this naturally leads to difficulties with its support. Major changes in
+program this naturally leads to difficulties in its support. Major changes in
 the application source code become virtually impossible without causing of new bugs and regressions.
 
 
 ### Solution
 
 Imagine that you can formalize some aspects of the creation of computer
-programs. Not code itself, namely, the code generation process. Then the
+programs. Not code itself, but the code generation process. Then the
 compiler will not just parse and compile the code, but partly will understand
 the meaning of your code and generate new code, depending on the surrounding
 context.
@@ -47,14 +47,14 @@ same original string `(save-thing)` will generate another call, for example:
 ```
 
 If you provide all the parameters of the called function, the compiler will not
-think out for you. It will just checks the compliance of the expected values to
+think instead of you. It will just checks the compliance of the expected values to
 the passed parameters.
 
-That is, which of the available symbols in the context of the call be used as a
+Which of the available symbols in the context of the call to be used as a
 function missing parameter, can be determined in several ways. The easiest way,
-by name. We can look for symbol with the name `thing` in the context of the call
+by the name. We can look for symbol with the name `thing` in the context of the call
 and use it in place of missed parameter `thing`. Very often, parameters required
-by a functions are defined with same name in the outer scope, for example:
+by a function are defined with the same name in the outer scope, for example:
 
 ```lisp
 (defn process-thing (thing)
@@ -62,7 +62,7 @@ by a functions are defined with same name in the outer scope, for example:
   (save-thing))
 ```
 
-Shown above example of name matching is the simplest mode that is used by
+Example of name matching shown above is the simplest mode that is used by
 current implementation of MetaJS.
 
 Similarly, you can search for matches in the meta-information associated with
@@ -76,7 +76,7 @@ The compiler will execute the instructions exactly as before, but in addition to
 grammar instructions, it will also execute semantic instructions defined
 specifically for your program.
 
-Imagine that you're explaining how does your program work to a grandmother who knows
+Imagine that you're explaining how does your program work to a grandmother, who knows
 nothing about programming &mdash; it's an old grammar compiler. Now imagine that
 you're explaining the same thing to a girl with a degree in computer science &mdash;
 it's a new semantic compiler. But you will have to explain in both cases.
