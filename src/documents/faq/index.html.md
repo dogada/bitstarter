@@ -2,6 +2,7 @@
 layout: 'default'
 slug: 'faq'
 lang: 'en'
+url: '/faq/'
 title: 'Frequently Asked Questions'
 lead: 'Frequently Asked Questions'
 head: 'FAQ'

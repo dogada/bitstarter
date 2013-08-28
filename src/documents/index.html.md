@@ -1,8 +1,10 @@
 ---
 layout: 'default'
+url: '/'
 slug: 'home'
 lang: 'en'
-title: 'Coact to connect!'
+title: 'Free technology that can replace Email, XMPP and social networks'
+description: 'Coect is the freedom of communication. It integrates Email, XMPP, RSS and features of social networks.'
 head: 'coect'
 lead: 'coact to connect'
 ---

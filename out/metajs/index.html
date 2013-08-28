@@ -9,11 +9,24 @@
 
     <title>Logos-oriented Lisp compiled to Javascript | coect.net</title>
 
-    <meta name="description" content="Coact to coect!" />
+    <meta name="description" content="Compiler will not just parse and compile the code, but partly will understand the meaning of your code and generate new code, depending on the surrounding context.
+" />
     <meta name="keywords" content="coect, metajs, email, network" />
     <meta http-equiv="X-Powered-By" content="DocPad v6.49.0"/>
-
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+    <meta property="og:title" content="Logos-oriented Lisp compiled to Javascript | coect.net" />
+    <meta property="og:image" content="http://www.coect.net/img/logo_128.png" />
+    <meta property="og:type" content="article" />
+    
+    <meta property="og:description" content="Compiler will not just parse and compile the code, but partly will understand the meaning of your code and generate new code, depending on the surrounding context.
+" />
+    
+    
+    <meta property="og:url" content="http://www.coect.net/metajs/" />
+    <link rel="canonical" href="http://www.coect.net/metajs/" />
+    
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="me" href="http://twitter.com/coect_net">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <!-- DocPad Styles + Our Own -->
     <link  rel="stylesheet" href="/styles/style.css" />
 
@@ -34,7 +47,7 @@
     </script>
   </head>
 
-  <body>
+  <body id="metajs">
 
     <div class="container">
       <div class="header">
@@ -55,8 +68,11 @@
       </div>
 
       <div class="jumbotron">
+	
         <h1>MetaJS</h1>
+	
         <p class="lead">Logos-oriented Lisp compiled to Javascript</p>
+	
       </div>
 
       <div class="row buttons">
@@ -100,7 +116,8 @@
 and ignore the semantics of each specific program. As a result, we get the
 source code with high level of redundancy. With the increasing size of the
 program this naturally leads to difficulties in its support. Major changes in
-the application source code become virtually impossible without causing of new bugs and regressions.</p>
+the application source code become virtually impossible without causing of new
+bugs and regressions.</p>
 <h3>Solution</h3>
 <p>Imagine that you can formalize some aspects of the creation of computer
 programs. Not code itself, but the code generation process. Then the

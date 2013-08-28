@@ -2,6 +2,7 @@
 layout: 'default'
 slug: 'faq'
 lang: 'ru'
+url: '/ru/faq/'
 title: 'Часто задаваемые вопросы'
 head: 'ЧаВО'
 ---

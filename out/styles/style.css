@@ -35,12 +35,45 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+
 }
+
+.jumbotron {
+  background-color: #0060f0;
+  color: #ffffff;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #0060f0;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    background-color: #0060f0;
+    color: #fff;
+}
+
+#home .jumbotron h1 {
+    display: inline;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+#home .jumbotron img {
+    display: inline;
+}
+
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 64px;
+        height: 64px;
+    }
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

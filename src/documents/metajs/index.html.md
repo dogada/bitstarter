@@ -2,8 +2,13 @@
 layout: 'default'
 slug: 'metajs'
 lang: 'en'
+url: '/metajs/'
 head: 'MetaJS'
 title: 'Logos-oriented Lisp compiled to Javascript'
+description: >
+  Compiler will not just parse and compile the code, but partly will understand
+  the meaning of your code and generate new code, depending on the surrounding
+  context.
 ---
 
 ### Problem
@@ -12,7 +17,8 @@ Today compilers of computer programs analyze only the grammar of the language
 and ignore the semantics of each specific program. As a result, we get the
 source code with high level of redundancy. With the increasing size of the
 program this naturally leads to difficulties in its support. Major changes in
-the application source code become virtually impossible without causing of new bugs and regressions.
+the application source code become virtually impossible without causing of new
+bugs and regressions.
 
 
 ### Solution

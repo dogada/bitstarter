@@ -2,8 +2,13 @@
 layout: 'default'
 slug: 'protocol'
 lang: 'en'
-title: 'Free open standard'
+url: '/protocol/'
+title: 'Evolution of Email and XMPP (Jabber)'
 head: 'Protocol'
+description: >
+  We love decentralized nature of Email and XMPP, but, unfortunately, these
+  technologies do not meet today's challenges. In Coect we intend to take all best
+  that we have in these technologies, and add missed parts.
 ---
 
 ### The evolution of Email and XMPP (Jabber)
