@@ -3,7 +3,7 @@ layout: 'default'
 slug: 'home'
 lang: 'ru'
 url: '/ru/'
-title: 'Замените устаревшие Email и социальные сети на современный Coect'
+title: 'Замените устаревший Email на современный Coect'
 head: 'coect'
 lead: 'coact to connect'
 description: >
