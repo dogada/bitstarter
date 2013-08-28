@@ -3,7 +3,7 @@ layout: 'default'
 slug: 'home'
 lang: 'ru'
 url: '/ru/'
-title: 'Свободная технология, способная заменить Email, XMPP и социальные сети'
+title: 'Замените устаревшие Email и социальные сети на современный Coect'
 head: 'coect'
 lead: 'coact to connect'
 description: >
