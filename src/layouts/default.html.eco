@@ -130,6 +130,9 @@
 
     </div> <!-- /container -->
 
+    <!-- UserVoice JavaScript SDK (only needed once on a page) -->
+    <script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/KJKJTK7mgJGagvpz3HZQ.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -138,6 +141,7 @@
       ga('create', 'UA-43028517-1', 'coect.net');
       ga('send', 'pageview');
     </script>
+
 
   </body>
 </html>
