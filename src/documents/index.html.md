@@ -18,41 +18,29 @@ to take the bigger bite. Large internet companies often create unnecessary
 barriers between their own users and users of competing web sites. Shortly we
 can expect a generation that haven't seen anything at all, except for Facebook.
 
-### Coect is freedom
+
+### Cooperation instead of destruction
 
 The word _coect_ is made up of two words, **co**act and conn**ect**. It means
 that we need to **coact to connect with each other**.
 
-Coect is the **freedom of communication**. Open protocol integrates Email, XMPP,
-RSS, VoIP-telephony, video conferencing, data transmition in P2P mode, and the
-typical features of social networks (users can follow each other, broadcast,
-comment, repost, etc). Coect protocol provides addressing, discovery,
-authentication and transmission of any data between any devices connected to the
-Internet: computers, smartphones, wearable and home sensors.
-
-Coect is **freedom for developers**. Any company can build a service using
-protocol Coect, and interact with other companies without limitations. Right now
-we exchange emails without thinking about what kind of server, Internet provider or
-email client the recipient of the message has. Coect adheres to the same
-approach.
-
-Coect is **freedom for the users**. Anyone can use their domain name as username
-in Coect. You can even use a free address on a shared server like Gmail. You can
-change your Coect-provider anytime and keep your address and contacts. All
-communication between users can be encrypted.
+Coect project offers an alternative to the monopoly &mdash; [free
+communication protocol](/protocol/). Coect is hundreds of national,
+corporate and niche social networks that allow users to interact directly with
+each other. Using Coect you can chat with users of other social networks as easy
+as now you exchange email with any recipients.
 
 
 ### Universal address for everything
 
 Today, we have to use different addresses for the same person based on type of
 communication: phone, email, social news &mdash; we believe that this is inconvenient
-and plain wrong. Coect offers a single address for everything.
+and plain wrong. Coect offers a universal address for everything.
 
 The same address can be used for phone calls, text messaging, video
-conferencing, and reading the news in social networks. The universal
-address can be used by different applications. Universal does not mean the same
-address per person. To communicate at work, you can use one universal address,
-for communicating with friends &mdash; the other one.
+conferencing, and reading the news in social networks. Universal does not mean
+single address per person. To communicate at work, you can use one universal
+address, for communicating with friends &mdash; the other one.
 
 
 ### The computer is dead. Long live the smartphone!

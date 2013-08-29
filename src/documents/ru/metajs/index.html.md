@@ -172,5 +172,4 @@ github:[dogada](https://github.com/dogada), twitter:[@d0gada](https://twitter.co
 ### P.S.
 
 Перечитав текст статьи, я нашел, что местами он читается, как научная
-фанстастика,  но часть описанной здесь функциональности уже реализована и вскоре
-[будет доступна на GitHub](https://github.com/dogada/metajs).
+фанстастика,  но часть описанной здесь функциональности уже реализована и [доступна на GitHub](https://github.com/dogada/metajs).

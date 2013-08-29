@@ -90,9 +90,7 @@ it's a new semantic compiler. But you will have to explain in both cases.
 
 ### Source code
 
-Unfortunately I haven't polished enough MetaJS compiler to release it publicly,
-but plan to do this by the end of August 2013. I already created MetaJS repo on
-GitHub, so if you wish, you can [watch it](https://github.com/dogada/metajs).
+MetaJS is free open-source language available on [GitHub](https://github.com/dogada/metajs).
 
 _Dmytro Dogadailo_,  
 github:[dogada](https://github.com/dogada), twitter:[@d0gada](https://twitter.com/d0gada).
