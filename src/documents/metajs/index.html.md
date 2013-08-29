@@ -3,7 +3,7 @@ layout: 'default'
 slug: 'metajs'
 lang: 'en'
 url: '/metajs/'
-head: 'MetaJS'
+head: '(: MetaJS)'
 title: 'Logos-oriented Lisp compiled to Javascript'
 description: >
   Compiler will not just parse and compile the code, but partly will understand

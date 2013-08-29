@@ -35,10 +35,6 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-
-}
-
-.jumbotron {
   background-color: #0060f0;
   color: #ffffff;
 }
@@ -61,6 +57,10 @@ body {
 
 #home .jumbotron img {
     display: inline;
+}
+
+#metajs .jumbotron {
+    background-color: #50d000;
 }
 
 .jumbotron .btn {
