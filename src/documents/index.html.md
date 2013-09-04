@@ -3,7 +3,7 @@ layout: 'default'
 url: '/'
 slug: 'home'
 lang: 'en'
-title: 'Replace outdated Email with modern Coect'
+title: 'Retire your Email'
 description: >
   Coect is the freedom of communication. Free open protocol
   integrates Email, XMPP, RSS and features of social networks.
