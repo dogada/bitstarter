@@ -90,7 +90,10 @@ it's a new semantic compiler. But you will have to explain in both cases.
 
 ### Source code
 
-MetaJS is free open-source language available on [GitHub](https://github.com/dogada/metajs).
+MetaJS is free open-source language available on
+[GitHub](https://github.com/dogada/metajs). Please look also at the [interactive
+documentation](http://metajs.coect.net/) where you can try MetaJS without
+leaving your browser.
 
 _Dmytro Dogadailo_,  
 github:[dogada](https://github.com/dogada), twitter:[@d0gada](https://twitter.com/d0gada).

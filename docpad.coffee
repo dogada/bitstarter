@@ -2,7 +2,7 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
         growl: true
-
+        port: 9001
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
@@ -13,7 +13,7 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			url: "http://www.coect.net"
-        
+
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
 				'coect.herokuapp.com'

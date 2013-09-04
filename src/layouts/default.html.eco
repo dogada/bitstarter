@@ -53,16 +53,22 @@
       <div class="header">
         <ul class="nav nav-pills">
           <li class="<%= "active" if @document.slug == 'home'%>">
-	    <a href="<%= ('/' + @document.lang) if @document.lang != 'en' %>/">Home</a>
+	    <a href="<%= ('/' + @document.lang) if @document.lang != 'en' %>/">
+	      <% if @document.lang == 'ru': %>Начало<% else: %>Home<% end %>
+	    </a>
 	  </li>
           <li class="<%= "active" if @document.slug == 'protocol' %>">
-	    <a href="<%= ('/' + @document.lang) if @document.lang != 'en' %>/protocol/">Protocol</a>
+	    <a href="<%= ('/' + @document.lang) if @document.lang != 'en' %>/protocol/">
+	      <% if @document.lang == 'ru': %>Протокол<% else: %>Protocol<% end %>
+	    </a>
 	  </li>
           <li class="<%= "active" if @document.slug == 'metajs' %>">
 	    <a href="<%= ('/' + @document.lang) if @document.lang != 'en' %>/metajs/">MetaJS</a>
 	  </li>
           <li class="<%= "active" if @document.slug == 'faq' %>">
-	    <a href="<%= ('/' + @document.lang) if @document.lang != 'en' %>/faq/">FAQ</a>
+	    <a href="<%= ('/' + @document.lang) if @document.lang != 'en' %>/faq/">
+	      <% if @document.lang == 'ru': %>ЧаВО<% else: %>FAQ<% end %>
+	    </a>
 	  </li>
         </ul>
       </div>
