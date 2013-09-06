@@ -175,4 +175,5 @@ github:[dogada](https://github.com/dogada), twitter:[@d0gada](https://twitter.co
 фанстастика, но часть описанной здесь функциональности уже реализована и
 [доступна на GitHub](https://github.com/dogada/metajs). Вы также можете
 попробовать MetaJS, не покидая броузера, на странице [интерактивной
-документации](http://metajs.coect.net/).
+документации](http://metajs.coect.net/). Там же демонстрируется, как [MetaJS
+генерирует недостающий код](http://metajs.coect.net/#magic).

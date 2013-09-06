@@ -93,7 +93,7 @@ it's a new semantic compiler. But you will have to explain in both cases.
 MetaJS is free open-source language available on
 [GitHub](https://github.com/dogada/metajs). Please look also at the [interactive
 documentation](http://metajs.coect.net/) where you can try MetaJS without
-leaving your browser.
+leaving your browser and see [MetaJS magic](http://metajs.coect.net/#magic) in action.
 
 _Dmytro Dogadailo_,  
 github:[dogada](https://github.com/dogada), twitter:[@d0gada](https://twitter.com/d0gada).
