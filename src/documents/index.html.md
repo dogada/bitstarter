@@ -14,9 +14,10 @@ lead: 'coact to connect'
 ### Healthy competition or cold war?
 
 The Internet feels like a quilt today. Every startup tries to pull it their way
-to take the bigger bite. Large internet companies often create unnecessary
-barriers between their own users and users of competing web sites. Shortly we
-can expect a generation that haven't seen anything at all, except for Facebook.
+to take the bigger bite. Large internet companies often create [unnecessary
+barriers](http://www.linkedin.com/today/post/article/20130903164924-2967511-have-social-networks-killed-the-web)
+between their own users and users of competing web sites. Shortly we can expect
+a generation that haven't seen anything at all, except for Facebook.
 
 
 ### Cooperation instead of destruction
