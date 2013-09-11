@@ -120,6 +120,9 @@ js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';i
 
         <div class="col-lg-3">
 	  <%- @partial('sidebar_' + @document.lang + '.html.md.eco') %>
+	  <% if @document.slug == 'home': %>
+	  <a class="twitter-timeline" href="https://twitter.com/coect_net" data-widget-id="377676752689975296">Tweets by @coect_net</a>
+	  <% end %>
         </div>
       </div>
 
