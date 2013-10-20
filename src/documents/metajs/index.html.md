@@ -69,7 +69,11 @@ by a function are defined with the same name in the outer scope, for example:
 ```
 
 Example of name matching shown above is the simplest mode that is used by
-current implementation of MetaJS.
+MetaJS. You can find more information about semantic code transformations,
+examples of symbolic and entitative MetaJS to JavaScipt transformations in the
+[metajs_semantic_code_transformations.pdf](http://metajs.coect.net/pdf/metajs_semantic_code_transformations.pdf).
+Please look also at the high-level MetaJS language overview
+[metajs_lisp.pdf](http://metajs.coect.net/pdf/metajs_lisp.pdf).
 
 Similarly, you can search for matches in the meta-information associated with
 function parameters and symbols available in the context of call. Such matching
