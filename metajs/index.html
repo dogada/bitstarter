@@ -12,7 +12,7 @@
     <meta name="description" content="Compiler will not just parse and compile the code, but partly will understand the meaning of your code and generate new code, depending on the surrounding context.
 " />
     <meta name="keywords" content="coect, metajs, email, network" />
-    <meta http-equiv="X-Powered-By" content="DocPad v6.49.0"/>
+    <meta name="generator" content="DocPad v6.69.0" />
     <meta property="og:title" content="Logos-oriented Lisp compiled to Javascript | coect.net" />
     <meta property="og:image" content="http://www.coect.net/img/logo_128.png" />
     <meta property="og:type" content="article" />
@@ -115,14 +115,14 @@ js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';i
 
       <div class="row">
         <div class="col-lg-9 content">
-	  <h3>Problem</h3>
+	  <h3 id="problem">Problem</h3>
 <p>Today compilers of computer programs analyze only the grammar of the language
 and ignore the semantics of each specific program. As a result, we get the
 source code with high level of redundancy. With the increasing size of the
 program this naturally leads to difficulties in its support. Major changes in
 the application source code become virtually impossible without causing of new
 bugs and regressions.</p>
-<h3>Solution</h3>
+<h3 id="solution">Solution</h3>
 <p>Imagine that you can formalize some aspects of the creation of computer
 programs. Not code itself, but the code generation process. Then the
 compiler will not just parse and compile the code, but partly will understand
@@ -130,15 +130,18 @@ the meaning of your code and generate new code, depending on the surrounding
 context.</p>
 <p>For example, you have a function <code>save-thing</code> that expects two required
 parameters: <code>thing</code> and <code>db</code>.</p>
-<pre><code class="lang-lisp">(defn save-thing (thing db))</code></pre>
+<pre><code class="lang-lisp">(defn save-thing (thing db))
+</code></pre>
 <p>Somewhere later in the program you call this function without parameters
 <code>(save-thing)</code>, but the compiler knows that this function requires <code>thing</code> and
 <code>db</code>, finds these parameters in the current lexical scope and generates a
 complete call, for example:</p>
-<pre><code class="lang-lisp">(save-thing user-thing environment.db)</code></pre>
+<pre><code class="lang-lisp">(save-thing user-thing environment.db)
+</code></pre>
 <p>Elsewhere the program and, respectively, in another context compiler for the
 same original string <code>(save-thing)</code> will generate another call, for example:</p>
-<pre><code class="lang-lisp">(save-thing backup-thing (get-secondary-db))</code></pre>
+<pre><code class="lang-lisp">(save-thing backup-thing (get-secondary-db))
+</code></pre>
 <p>If you provide all the parameters of the called function, the compiler will not
 think instead of you. It will just checks the compliance of the expected values to
 the passed parameters.</p>
@@ -149,7 +152,8 @@ and use it in place of missed parameter <code>thing</code>. Very often, paramete
 by a function are defined with the same name in the outer scope, for example:</p>
 <pre><code class="lang-lisp">(defn process-thing (thing)
   (log thing)
-  (save-thing))</code></pre>
+  (save-thing))
+</code></pre>
 <p>Example of name matching shown above is the simplest mode that is used by
 MetaJS. You can find more information about semantic code transformations,
 examples of symbolic and entitative MetaJS to JavaScipt transformations in the
@@ -159,7 +163,7 @@ Please look also at the high-level MetaJS language overview
 <p>Similarly, you can search for matches in the meta-information associated with
 function parameters and symbols available in the context of call. Such matching
 may be based on static typing or relations between symbols defined in logoses.</p>
-<h3>MetaJS allows compiler to generate source code. Will a computer create programs instead of a human?</h3>
+<h3 id="metajs-allows-compiler-to-generate-source-code-will-a-computer-create-programs-instead-of-a-human-">MetaJS allows compiler to generate source code. Will a computer create programs instead of a human?</h3>
 <p>The compiler will execute the instructions exactly as before, but in addition to
 grammar instructions, it will also execute semantic instructions defined
 specifically for your program.</p>
@@ -167,7 +171,7 @@ specifically for your program.</p>
 nothing about programming &mdash; it&#39;s an old grammar compiler. Now imagine that
 you&#39;re explaining the same thing to a girl with a degree in computer science &mdash;
 it&#39;s a new semantic compiler. But you will have to explain in both cases.</p>
-<h3>Source code</h3>
+<h3 id="source-code">Source code</h3>
 <p>MetaJS is free open-source language available on
 <a href="https://github.com/dogada/metajs">GitHub</a>. Please look also at the <a href="http://metajs.coect.net/">interactive
 documentation</a> where you can try MetaJS without
@@ -177,7 +181,7 @@ leaving your browser and see <a href="http://metajs.coect.net/#magic">MetaJS mag
         </div>
 
         <div class="col-lg-3">
-	  <h3>Feedback</h3>
+	  <h3 id="feedback">Feedback</h3>
 <p>Without your feedback we&#39;re going back! Please tell us what do you think and what do you need.</p>
 <p>Follow us on Twitter <a href="https://twitter.com/coect_net">@coect_net</a> or like <a href="https://www.facebook.com/coect">Coect</a> on Facebook.</p>
 <p>Watch <a href="https://github.com/dogada/metajs">MetaJS repository</a> on <a href="https://github.com/dogada">GitHub</a>.</p>
